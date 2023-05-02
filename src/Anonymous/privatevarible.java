@@ -1,5 +1,6 @@
 package Anonymous;
-class A{
+
+class ABC{
 	private int  a = 2;
 	private int b = 2;
 	public void main() {
@@ -22,7 +23,7 @@ class A{
 
 public class privatevarible {
 	public static void main(String[] args) {
-		Anonymous.A.B ab = A.B();
+		Anonymous.ABC.B ab = ABC.B();
 		ab.show();
 		
 	}
